@@ -1,0 +1,90 @@
+p{
+  font-family: filson-pro,sans-serif;
+}
+#root{
+  overflow: hidden;
+}
+.navbar .container-fluid .navbar-brand{
+  color: #FBDD11;
+}
+/* .btn{
+  border: none;
+  background-color:red ; */
+/* } */
+.btn0{
+  /* border: #FBDD11; */
+  border: none;
+  color: #FBDD11;
+  background-color: rgb(192, 229, 229);
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link{
+  color: #FBDD11;
+  /* margin-left: 90%; */
+  /* padding-left: 2%; */
+  /* padding: 2%; */
+  /* margin-left: 50%; */
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover{
+  background: #2D742B;
+  border-radius: 6px;
+  /* margin-top: 52%; */
+  /* padding: 3%; */
+  /* height: 35%; */
+  /* width: 25%; */
+  box-shadow: rgba(31, 63, 31, 0.677) 0px 5px ;
+  /* box-shadow: inside red 15px 15px 15px 15px; */
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> first page >>>>>>>>>>>>>>>>>>.. */
+.firstImg img{
+  /* background-size: auto; */
+  /* height:40vw; */
+}
+.firstImg{
+  background: url("https://banano.cc/illustrations/backgrounds/bg-footer.svg");
+  /* width: 100/ */
+  /* padding: 1%; */
+  background-color: #2D742B;
+}
+.getBananobtn{
+  border: none;
+  background-color: #FBDD11;
+  padding: 1% 5% 1% 5%;
+  box-shadow:#E7C900 0px 6px;
+}
+.getBananobtn:hover{
+  transform: scale(1,1.1) translate(0px,-5px);
+ 
+}
+
+
+.rotate {
+  /* -webkit-animation: rotate 5s normal linear infinite; */
+  animation: rotate 5s normal linear infinite;
+}
+
+@keyframes rotate {
+  100% {
+    /*-webkit-transform: rotate3d(0, 0, 1, 0deg);
+    */transform: rotatey(360deg);
+   
+}
+  /* 25% {
+    -webkit-transform: rotate3d(0, 0, 1, 90deg);
+    transform: rotate3d(0, 0, 1, 90deg);
+  } */
+  /* 50% {
+    -webkit-transform: rotate30zz, 0, 1, 180deg);
+    transform: rotate30zz, 0, 1, 180deg);
+    -moz-transform: rotate30zz, 0, 1, 180deg);
+    -ms-transform: rotate30zz, 0, 1, 180deg);
+    -o-transform: rotate30zz, 0, 1, 180deg);
+} */
+  /* 75% {
+    -webkit-transform: rotate3d(0, 0, 1, 270deg);
+    transform: rotate3d(0, 0, 1, 270deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 360deg);
+    transform: rotate3d(0, 0, 1, 360deg);
+  } */
+}
